@@ -1,0 +1,104 @@
+header {
+    color: white;
+    text-shadow: 2px  2px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+    text-transform: uppercase;
+  }
+  
+  img {
+   height:400px;
+   width: 400px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 0.5em;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/background1.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:80%;
+    padding: 40px;
+    margin:0 auto;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+  }
+  fieldset {
+   border: 1px #6A522F solid;
+   background:rgba(255, 255, 255, 0.8); 
+   margin:0 auto;
+   border-radius: 10px;
+  }
+  
+  h2 {
+   margin-top: 20px;
+   text-align: left;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    margin-top:10px;
+    color: white;
+    background: #63AEFF;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  main {
+    background:rgba(255, 255, 255, 0.8);
+    width:80%;
+    padding: 40px;
+    margin:0 auto;
+  }
+  
+  .col-2 {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  
+  .finalResult{
+    font-size: 30px;
+  }
+  
+  @media only screen and (min-width: 320px) {
+    body{
+     background-repeat: repeat;
+     background-size: cover;
+    }
+    img {
+      height: 200px;
+      width: 200px;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+  
+    h1 {
+    font-size: 50px;
+    }
+    .col-2 {
+      font-size: 30px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    button {
+      font-size: 25px;
+    }
+    .col-3 {
+      font-size: 25px;
+    }
+    img {
+    height:500px;
+    width: 500px;
+    }
+  }
